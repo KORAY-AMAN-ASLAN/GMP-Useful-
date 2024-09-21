@@ -16,7 +16,7 @@ int main() {
     mpz_fac_ui(result, 50);
 
 
-    std::cout << "1000! = ";
+    std::cout << "50!= ";
     // Base 10
     mpz_out_str(stdout, 10, result);
     std::cout << std::endl;
